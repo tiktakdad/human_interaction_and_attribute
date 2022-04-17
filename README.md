@@ -38,7 +38,7 @@ pause
 
 ## Output JSON data format
 ### - FACE
-![face](../image/json_face.png)
+![face](image/json_face.png)
 ```
 datas['result_face']['image_width']  : int,  이미지 가로 
 datas['result_face']['image_height'] : int,  이미지 세로 
@@ -55,7 +55,7 @@ datas['result_face']['facial_points']['face_oval']     : int array[36] - [(x,y),
 ```
 
 ### - HAND
-![hand](../image/json_hand.png)
+![hand](image/json_hand.png)
 ```
 datas['result_hand']['image_width']   : int,  이미지 가로
 datas['result_hand']['image_height']  : int,  이미지 세로
@@ -71,7 +71,7 @@ datas['result_hand']['hand_points']['pinky_finger']  : int array[3],  새끼 연
 ```
 
 ### - IRIS/GAZE
-![iris](../image/json_iris.png)
+![iris](image/json_iris.png)
 ```
 datas['result_iris']['image_width']       : int,  이미지 가로
 datas['result_iris']['image_height']      : int,  이미지 세로
