@@ -1,14 +1,14 @@
-# WYSIWYG AI ENGINE
+# Human Interaction and Facial Attribute (HIFA)
 
-WYSIWYG AI engine on CPU and test client for the kiosk application
+AI engines run on CPU for the hand gesture, iris detection, facial landmark detection and facial attribute such as gender, age...  
 
 ## Installation
 
-Use the [Anaconda](https://www.anaconda.com/products/individual) and package manager [pip](https://pip.pypa.io/en/stable/) to install WYSIWYG AI engine.
+Use the [Anaconda](https://www.anaconda.com/products/individual) and package manager [pip](https://pip.pypa.io/en/stable/) to install HIFA.
 
 ```bash
-conda create -n kiosk_app python=3.9
-conda activate kiosk_app
+conda create -n hifa python=3.9
+conda activate hifa
 pip install opencv-python
 pip install requests
 pip install pillow
@@ -26,11 +26,11 @@ python video_test.py
 python video_test.py -i 127.0.0.1 -p 9999 -c 0
 
 (or make batch-file)
-set root=C:\Users\conia\anaconda3
+set root=C:\Users\[user_name]\anaconda3
 call %root%\Scripts\activate.bat %root%
 call conda env list
-call conda activate kiosk_test
-call cd C:\Users\conia\Documents\test\kiosk_application
+call conda activate hifa
+call cd C:\Users\[user_name]\[installed_path]
 call python video_test.py -i 127.0.0.1 -p 9999 -c 0
 pause
 
